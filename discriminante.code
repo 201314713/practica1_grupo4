@@ -18,3 +18,7 @@ public class ValorAbsoluto {
             System.out.println("Valores absolutos: |"+a+"| = "+a_abs+" <><><> |"+b+"| = "+b_abs);
       }
 }
+
+public int cubo (int a){
+	return Math.pow(a,2);
+}
