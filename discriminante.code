@@ -7,5 +7,5 @@ public void (int a, int b, int c){
 	    print("Tiene una sola solucion")
 	}else{
 	    print ("no tiene solucion real")
-	}
-}
+	} 
+}}
