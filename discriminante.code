@@ -30,6 +30,10 @@ public int raiz (int a){
 
 public double division(double a, double b)
 {
+	if(b==0){
+		Throw Error();
+		return 0;
+	}
 	return (a/b);
 }
 
