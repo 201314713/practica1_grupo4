@@ -6,7 +6,7 @@ public void (int a, int b, int c){
 	if (discriminante==0){
 	    print("Tiene una sola solucion")
 	}else{
-	    print ("no tiene solucion real")
+	    print ("no tiene solucion real")dddd
 	} 
 }}
 
