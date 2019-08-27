@@ -22,3 +22,7 @@ public class ValorAbsoluto {
 public int cubo (int a){
 	return Math.pow(a,2);
 }
+
+public int raiz (int a){
+	return Math.pow(a,1/3);
+}
