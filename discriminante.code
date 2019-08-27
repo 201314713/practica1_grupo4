@@ -1,12 +1,15 @@
 public void (int a, int b, int c){
 	int discriminante = ((b*b)-(4*(a*c)));
 	if(discriminante>0){
-	    print("Tiene dos soluciones")
+	    print("Tiene dos soluciones");
+		print("Gracias");
 	}else 
 	if (discriminante==0){
-	    print("Tiene una sola solucion")
+	    print("Tiene una sola solucion");
+		print ("Gracias");
 	}else{
-	    print ("no tiene solucion real")
+	    print ("no tiene solucion real");
+		print ("Gracias");
 	} 
 }}
 
@@ -16,14 +19,18 @@ public class ValorAbsoluto {
             a_abs = Math.abs(a);
             b_abs = Math.abs(b);
             System.out.println("Valores absolutos: |"+a+"| = "+a_abs+" <><><> |"+b+"| = "+b_abs);
+			System.out.println("Gracias");
       }
 }
 
 public int cubo (int a){
+	print("El resultado es" + Math.pow(a,2));
 	return Math.pow(a,2);
+	
 }
 
 public int raiz (int a){
+	print("El resultado es" + Math.pow(a,2));
 	return Math.pow(a,1/3);
 }
 
@@ -34,10 +41,12 @@ public double division(double a, double b)
 		Throw Error();
 		return 0;
 	}
+	print("El resultado es" + a/b);
 	return (a/b);
 }
 
 public double multiplicacion(double a, double b)
 {
+	print("El resultado es" + a*b);
 	return (a*b);
 }
