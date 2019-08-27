@@ -1,4 +1,6 @@
 public void (int a, int b, int c){
+
+    print("Funcion extra 201313713");
 	int discriminante = ((b*b)-(4*(a*c)));
 	if(discriminante>0){
 	    print("Tiene dos soluciones")
@@ -11,6 +13,7 @@ public void (int a, int b, int c){
 }}
 
 public class ValorAbsoluto {
+	print("Funcion extra 201313713");
       public static void main(String[] args) {
             int a = 10, b = -20, a_abs, b_abs;
             a_abs = Math.abs(a);
@@ -20,10 +23,12 @@ public class ValorAbsoluto {
 }
 
 public int cubo (int a){
+	print("Funcion extra 201313713");
 	return Math.pow(a,2);
 }
 
 public int raiz (int a){
+	print("Funcion extra 201313713");
 	return Math.pow(a,1/3);
 }
 
