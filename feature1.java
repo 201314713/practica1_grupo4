@@ -21,4 +21,8 @@ public class Main{
         }
         System.out.printf("Binario: %.0f %n", binario);
     }
+
+    public int mult2 (int c){
+        return c*2;
+    }
 }
