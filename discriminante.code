@@ -39,5 +39,12 @@ public double division(double a, double b)
 
 public double multiplicacion(double a, double b)
 {
+
+	if(a>b){
+		System.print("Es una operacion dominante")
+	}
 	return (a*b);
+
+
+
 }
